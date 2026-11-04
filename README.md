@@ -1,0 +1,1 @@
+The objective of this project is to develop a reproducible benchmarking and optimization framework to evaluate deep learning inference performance on resource-constrained CPU systems.
