@@ -1,0 +1,11 @@
+.git/
+__pycache__/
+results/
+.venv/bin/
+.venv/lib/python3.11/site-packages/torch*
+.venv/lib/python3.11/site-packages/functorch*
+.venv/lib/python3.11/site-packages/nvidia*
+.venv/lib/python3.11/site-packages/triton*
+.venv/lib/python3.11/site-packages/cuda*
+.venv/lib/python3.11/site-packages/cv2*
+.venv/lib/python3.11/site-packages/opencv*

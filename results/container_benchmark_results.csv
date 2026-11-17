@@ -1,0 +1,12 @@
+framework,cpu_limit,mem_limit,threads,trials,status,avg_latency_ms,trial_std_ms,p50_latency_ms,p95_latency_ms,throughput_img_per_sec,cpu_util_pct,rss_mb,peak_memory_mb,container_peak_mb
+ONNX Runtime (CPU),unrestricted,unrestricted,4,5,OK,3.569,0.383,3.086,6.009,282.81,400.36,74.23,91.73,79.25
+ONNX Runtime (CPU),unrestricted,unrestricted,1,5,OK,10.785,0.41,10.182,13.477,92.81,99.98,80.99,91.65,65.64
+ONNX Runtime (CPU),2,1g,4,5,OK,11.897,0.528,4.442,59.034,84.2,198.26,73.71,91.85,66.58
+ONNX Runtime (CPU),2,1g,2,5,OK,5.919,0.186,5.514,7.575,169.03,199.7,76.26,91.67,65.81
+ONNX Runtime (CPU),1,1g,4,5,OK,40.358,2.815,11.791,93.524,24.89,99.7,74.01,91.58,64.97
+ONNX Runtime (CPU),1,1g,1,5,OK,11.003,0.543,10.445,14.263,91.06,99.96,81.0,91.56,65.76
+ONNX Runtime (CPU),1,512m,1,5,OK,11.402,0.524,10.776,14.492,87.84,99.98,80.83,91.51,65.7
+ONNX Runtime (CPU),1,256m,1,5,OK,11.03,0.181,10.573,13.849,90.65,100.0,81.24,91.69,65.94
+ONNX Runtime (CPU),1,128m,1,5,OK,11.307,0.563,10.608,14.227,88.62,99.94,85.62,91.42,64.89
+ONNX Runtime (CPU),1,64m,1,5,OK,11.267,0.392,10.408,14.617,88.82,99.92,85.76,91.59,64.0
+ONNX Runtime (CPU),1,32m,1,5,OOM_KILLED (Exit 137),,,,,0.0,0.0,,,

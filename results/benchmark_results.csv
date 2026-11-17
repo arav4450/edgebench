@@ -1,0 +1,9 @@
+framework,config,batch_size,input_shape,avg_latency_ms,p50_latency_ms,p95_latency_ms,throughput_img_per_sec,cpu_util_pct,model_size_mb,baseline_rss_mb,model_rss_delta_mb,peak_memory_mb,top1_class,top1_conf_pct,trial_std_ms,trials
+PyTorch (CPU),"intra=1, inter=1",1,"(1, 3, 224, 224)",14.44,13.239,20.685,69.31,100.0,13.6,676.21,62.82,739.03,Egyptian cat,6.67,0.459,3
+PyTorch (CPU),"intra=4, inter=1",1,"(1, 3, 224, 224)",10.364,9.221,14.403,96.98,399.8,13.6,677.52,64.88,742.4,Egyptian cat,6.67,0.745,3
+ONNX Runtime (CPU),"intra=1, inter=1, mode=SEQUENTIAL",1,"(1, 3, 224, 224)",6.967,6.401,9.562,143.5,100.0,13.34,51.79,43.5,95.29,Egyptian cat,8.92,0.07,3
+ONNX Runtime (CPU),"intra=2, inter=1, mode=SEQUENTIAL",1,"(1, 3, 224, 224)",3.668,3.462,4.744,273.21,200.27,13.34,52.02,43.38,95.46,Egyptian cat,8.92,0.187,3
+ONNX Runtime (CPU),"intra=4, inter=1, mode=SEQUENTIAL",1,"(1, 3, 224, 224)",2.371,2.096,3.639,422.12,401.63,13.34,51.85,43.42,95.27,Egyptian cat,8.92,0.093,3
+ONNX Runtime (CPU),"intra=8, inter=1, mode=SEQUENTIAL",1,"(1, 3, 224, 224)",3.594,2.874,7.377,289.68,801.67,13.34,51.79,43.45,95.24,Egyptian cat,8.92,0.77,3
+ONNX Runtime (CPU),"intra=auto, inter=1, mode=SEQUENTIAL",1,"(1, 3, 224, 224)",2.662,2.529,3.782,376.1,1093.5,13.34,51.78,43.63,95.41,Egyptian cat,8.92,0.118,3
+ONNX Runtime (CPU),"intra=4, inter=2, mode=PARALLEL",1,"(1, 3, 224, 224)",2.61,2.201,4.146,385.04,502.37,13.34,51.72,45.33,97.05,Egyptian cat,8.92,0.194,3

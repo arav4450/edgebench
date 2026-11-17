@@ -1,0 +1,5 @@
+precision,threads,trials,model_size_mb,avg_latency_ms,trial_std_ms,p50_latency_ms,p95_latency_ms,throughput_img_per_sec,rss_mb,model_rss_delta_mb,peak_memory_mb,top1_accuracy_pct,prediction_agreement_pct
+FP32,1,5,13.34,11.577,0.683,10.986,14.548,86.63,95.5,42.89,748.71,65.4,100.0
+INT8,1,5,3.72,6.33,0.198,5.844,8.499,157.97,78.2,25.39,748.71,64.4,87.4
+FP32,4,5,13.34,3.929,0.385,3.463,6.201,256.45,95.53,42.88,748.71,65.4,100.0
+INT8,4,5,3.72,2.023,0.108,1.877,2.676,494.95,78.44,25.72,748.71,64.4,87.4
